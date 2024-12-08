@@ -4,11 +4,11 @@ import { PiBellRingingFill } from "react-icons/pi";
 const App = () => {
   return (
     <>
-      <div className="w-[1440px] h-[100%]">
-        <img src="/img/img1.jpg" className="w-[515px] h-[790px] object-cover" />
-
+      <div className="w-[100%] h-[100vh] overflow-hidden"> 
+        <img src="/img/img1.jpg" className="w-[400px] h-[700px] object-cover" />
+        
         <div>
-          <div className="w-[675px] h-[202px] top-[140px] left-[640px] absolute">
+          <div className="w-[675px] h-[202px] top-[100px] left-[500px] absolute">
             <h1 className="w-[675px] h-[48px] font-roboto font-medium text-[36px] leading-[48px]">
               Light, Fast & Powerful
             </h1>
@@ -23,7 +23,7 @@ const App = () => {
           </div>
 
           <div className="cards">
-            <div className="w-[325px] h-[121px] top-[402px] left-[640px] absolute">
+            <div className="w-[325px] h-[121px] top-[330px] left-[500px] absolute">
               <div className="w-[36px] h-[36px]">
                 <PiBellRingingFill className="w-full h-full" />
               </div>
@@ -36,7 +36,7 @@ const App = () => {
               </p>
             </div>
 
-            <div className="w-[325px] h-[121px] top-[402px] left-[975px] absolute">
+            <div className="w-[325px] h-[121px] top-[330px] left-[900px] absolute">
               <div className="w-[36px] h-[36px]">
                 <PiBellRingingFill className="w-full h-full" />
               </div>
@@ -49,7 +49,7 @@ const App = () => {
               </p>
             </div>
 
-            <div className="w-[325px] h-[121px] top-[563px] left-[640px] absolute">
+            <div className="w-[325px] h-[121px] top-[470px] left-[500px] absolute">
               <div className="w-[36px] h-[36px]">
                 <PiBellRingingFill className="w-full h-full" />
               </div>
@@ -62,7 +62,7 @@ const App = () => {
               </p>
             </div>
 
-            <div className="w-[325px] h-[121px] top-[563px] left-[975px] absolute">
+            <div className="w-[325px] h-[121px] top-[470px] left-[900px] absolute">
               <div className="w-[36px] h-[36px]">
                 <PiBellRingingFill className="w-full h-full" />
               </div>
